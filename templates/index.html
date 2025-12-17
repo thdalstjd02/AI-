@@ -17,14 +17,18 @@
                     <li onclick="openTab('career')" id="link-career">경력</li>
                     <li onclick="openTab('works')" id="link-works">결과물</li>
                 </ul>
-                <div class="footer-contact">© 2024 My Name</div>
+                <div class="footer-contact">© 2025 Media Contents</div>
             </nav>
 
             <main class="content">
+                
                 <div id="home" class="tab-content active">
                     <div class="profile-section">
-                        <div class="profile-img"></div> <h1>{{ user.name }}</h1>
+                        <div class="profile-img"></div> 
+                        
+                        <h1>{{ user.name }}</h1>
                         <p class="subtitle">{{ user.title }}</p>
+                        
                         <div class="social-links">
                             <a href="#">Email</a>
                             <a href="#">GitHub</a>
@@ -35,27 +39,46 @@
 
                 <div id="about" class="tab-content">
                     <h2>About Me</h2>
-                    <p>안녕하세요. 문제를 코드로 해결하는 것을 즐기는 개발자입니다.</p>
-                    <p>사용자 경험을 최우선으로 생각하며, 깔끔하고 효율적인 코드를 작성하기 위해 노력합니다.</p>
+                    <p>안녕하세요. 미디어 콘텐츠와 스포츠 마케팅을 연결하는 크리에이터입니다.</p>
+                    <p>현장의 생동감을 기획과 영상으로 담아내며, 팬들에게 즐거움을 주는 것을 목표로 합니다.</p>
                     <br>
                     <h3>Skills</h3>
                     <div class="tags">
-                        <span>Python</span><span>Flask</span><span>HTML/CSS</span><span>Git</span>
+                        <span>Sports Marketing</span><span>Video Editing</span><span>Python</span><span>Motion Graphics</span>
                     </div>
                 </div>
 
                 <div id="career" class="tab-content">
                     <h2>Career History</h2>
+                    
+                    <div style="margin-bottom: 25px; padding: 15px; background: rgba(76, 175, 80, 0.1); border-radius: 8px; border-left: 5px solid #4CAF50;">
+                        <span style="color: #4CAF50; font-weight: bold; font-size: 1.1rem;">✔ CURRENT STATUS</span><br>
+                        <span style="color: #ddd; margin-top: 5px; display: block;">현재 스포츠 마케팅 업계에서 <strong>실무 스태프</strong>로 활발히 활동 중입니다.</span>
+                    </div>
+
                     <ul class="timeline">
                         <li>
-                            <span class="date">2024.01 - 현재</span>
-                            <strong>프리랜서 개발자</strong>
-                            <p>다양한 웹/앱 프로젝트 외주 개발 진행</p>
+                            <span class="date" style="color: #4CAF50; font-weight: bold;">2025.11 - 현재 (Active)</span>
+                            <strong>부산 OK읏맨 프로배구단</strong>
+                            <p>현장 운영 STAFF / 스포츠 마케팅 실무 활동</p>
                         </li>
+                        
                         <li>
-                            <span class="date">2022.03 - 2023.12</span>
-                            <strong>OOO 스타트업 인턴</strong>
-                            <p>백엔드 API 설계 및 유지보수 참여</p>
+                            <span class="date">2025.04 - 2025.08</span>
+                            <strong>시사저널 스포츠 산업 실전 프로젝트</strong>
+                            <p>FC서울 1팀 & 성남FC 연계 실무 기획 프로젝트 수료</p>
+                        </li>
+
+                        <li>
+                            <span class="date">2025.01 - 2025.04</span>
+                            <strong>부산 KCC 프로 농구단</strong>
+                            <p>홈 경기 현장 운영 및 팬 서비스 지원 STAFF</p>
+                        </li>
+
+                        <li>
+                            <span class="date">2024.08 - 2025.04</span>
+                            <strong>경성대학교 스포츠 마케팅 동아리</strong>
+                            <p>교내 스포츠 마케팅 기획 및 홍보 부원 활동</p>
                         </li>
                     </ul>
                 </div>
@@ -69,6 +92,7 @@
                         <div class="gallery-item">프로젝트 D</div>
                     </div>
                 </div>
+
             </main>
         </div>
     </div>
